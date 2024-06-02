@@ -1,0 +1,11 @@
+[book]
+authors = ["John Telford"]
+language = "en"
+src = "src"
+title = "Interative Web Development"
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+
+[preprocessor.image-size]
+command = "mdbook-image-size"

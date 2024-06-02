@@ -4,6 +4,8 @@ language = "en"
 src = "src"
 title = "Interative Web Development"
 
+[preprocessor]
+
 [preprocessor.admonish]
 command = "mdbook-admonish"
 

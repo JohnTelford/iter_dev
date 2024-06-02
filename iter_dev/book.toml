@@ -4,3 +4,11 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Iterative Web Developent"
+
+[preprocessor]
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+
+[output.html]
+additional-css = ["./mdbook-admonish.css"]
